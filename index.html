@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A student portfolio showcasing projects, skills, and interests in information technology and cloud computing.">
+    <title>Dhruva Patel | Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Main navigation">
+            <a class="logo" href="#home" aria-label="Dhruva Patel, home">DP<span>.</span></a>
+
+            <button class="menu-toggle" id="menu-toggle" type="button"
+                    aria-label="Open navigation menu" aria-expanded="false"
+                    aria-controls="nav-links">
+                <span></span><span></span><span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark theme">☾</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="hero section container" id="home">
+            <div class="hero-copy">
+                <p class="eyebrow">HELLO, WORLD! <span aria-hidden="true">✦</span></p>
+                <h1>I'm <span class="accent">Dhruva Patel</span>,<br>an IT student.</h1>
+                <p class="hero-text">I’m learning how technology works and exploring cloud computing, connected devices, and useful digital experiences.</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+                    <a class="button button-secondary" href="#contact">Get in touch</a>
+                </div>
+                <p class="hero-note"><span class="status-dot" aria-hidden="true"></span> Learning, building, and growing one project at a time.</p>
+            </div>
+
+            <div class="hero-art" aria-label="Decorative illustration representing technology and cloud computing" role="img">
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="cloud-card">
+                    <div class="cloud-symbol" aria-hidden="true">☁</div>
+                    <p>Curious mind.</p>
+                    <p class="cloud-card-bottom">Cloudy possibilities.</p>
+                </div>
+                <span class="float-chip chip-one" aria-hidden="true">&lt;/&gt;</span>
+                <span class="float-chip chip-two" aria-hidden="true">✳</span>
+                <span class="float-chip chip-three" aria-hidden="true">✦</span>
+            </div>
+        </section>
+
+        <section class="section section-soft" id="about">
+            <div class="container about-grid">
+                <div>
+                    <p class="eyebrow">A LITTLE ABOUT ME</p>
+                    <h2>Technology with <span class="accent">purpose.</span></h2>
+                </div>
+                <div class="about-copy">
+                    <p>I’m an Information Technology student who enjoys discovering how digital tools can solve everyday problems. I’m building my foundation through coursework, experiments, and small projects.</p>
+                    <p>Right now, I’m especially interested in cloud computing and connected systems. I believe good technology should be useful, accessible, and easy to understand.</p>
+                    <a class="text-link" href="#contact">Let’s connect <span aria-hidden="true">→</span></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container" id="skills">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT I'M LEARNING</p>
+                <h2>My current <span class="accent">toolkit.</span></h2>
+                <p class="section-intro">A growing collection of skills that I’m practising through classes and projects.</p>
+            </div>
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <div class="skill-icon" aria-hidden="true">⌘</div>
+                    <h3>Web basics</h3>
+                    <p>HTML, CSS, responsive layouts, and beginner JavaScript.</p>
+                </article>
+                <article class="skill-card">
+                    <div class="skill-icon" aria-hidden="true">C++</div>
+                    <h3>Programming</h3>
+                    <p>C++, problem-solving, and learning core programming concepts.</p>
+                </article>
+                <article class="skill-card">
+                    <div class="skill-icon" aria-hidden="true">☁</div>
+                    <h3>Cloud computing</h3>
+                    <p>Exploring cloud fundamentals, services, and deployment.</p>
+                </article>
+                <article class="skill-card">
+                    <div class="skill-icon" aria-hidden="true">⌁</div>
+                    <h3>IoT concepts</h3>
+                    <p>Learning how sensors, microcontrollers, and software work together.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section section-soft" id="projects">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">SELECTED WORK</p>
+                    <h2>Projects & <span class="accent">experiments.</span></h2>
+                    <p class="section-intro">A few examples of the kinds of problems I’m interested in exploring. Replace these descriptions with your exact project details as needed.</p>
+                </div>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-visual visual-lilac" role="img" aria-label="Illustration of a student dashboard with cards and charts">
+                            <div class="mini-window">
+                                <div class="mini-window-top"><i></i><i></i><i></i></div>
+                                <div class="mini-line long"></div><div class="mini-line"></div>
+                                <div class="mini-boxes"><span></span><span></span><span></span></div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <p class="project-type">WEB DEVELOPMENT</p>
+                            <h3>StudentHub Portal</h3>
+                            <p>A student-focused portal concept for organising useful information, events, and student resources.</p>
+                            <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-visual visual-peach" role="img" aria-label="Illustration of smart glasses and a sensor">
+                            <div class="glasses-art" aria-hidden="true"><span></span><span></span><b></b></div>
+                            <div class="sensor-dot" aria-hidden="true"></div>
+                        </div>
+                        <div class="project-content">
+                            <p class="project-type">INTERNET OF THINGS</p>
+                            <h3>Smart Assistance Glasses</h3>
+                            <p>An assistive technology concept using distance sensing to help detect nearby obstacles.</p>
+                            <div class="tag-list"><span>ESP32</span><span>Sensors</span><span>IoT</span></div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-visual visual-mint" role="img" aria-label="Illustration of a health monitoring screen with a pulse line">
+                            <div class="health-screen"><span class="heart" aria-hidden="true">♡</span><div class="pulse-line" aria-hidden="true"></div><div class="health-bars"><i></i><i></i><i></i></div></div>
+                        </div>
+                        <div class="project-content">
+                            <p class="project-type">SMART MONITORING</p>
+                            <h3>Health Monitoring System</h3>
+                            <p>A prototype concept for displaying sensor readings and providing simple visual alerts.</p>
+                            <div class="tag-list"><span>ESP32</span><span>Sensors</span><span>Display</span></div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container contact-section" id="contact">
+            <div class="contact-panel">
+                <div>
+                    <p class="eyebrow">HAVE A QUESTION?</p>
+                    <h2>Let’s make something <span class="accent">meaningful.</span></h2>
+                    <p class="contact-description">I’m open to connecting with fellow students, learning from others, and exploring new ideas.</p>
+                </div>
+                <form id="contact-form" class="contact-form">
+                    <label for="visitor-name">Dhruva Patel</label>
+                    <input id="visitor-name" name="visitor-name" type="text" placeholder="Enter Dhruva Patel" required>
+                    <label for="visitor-email">Your email</label>
+                    <input id="visitor-email" name="visitor-email" type="email" placeholder="you@example.com" required>
+                    <label for="visitor-message">Message</label>
+                    <textarea id="visitor-message" name="visitor-message" rows="3" placeholder="Write a short message..." required></textarea>
+                    <button class="button button-primary" type="submit">Prepare message <span aria-hidden="true">↗</span></button>
+                    <p class="form-note" id="form-message" role="status" aria-live="polite">This demo prepares an email in your email app; it does not store or send your details to a server.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© <span id="current-year"></span> Dhruva Patel. Made with curiosity.</p>
+            <a href="#home">Back to top ↑</a>
+        </div>
+    </footer>
+</body>
+</html>
